@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    background-color: ;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+
+}
+
+
+.navbar{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 5px;
+    background-color: black;
+    position: ;
+    overflow: ;
+}
+.amazon-logo{
+    height: 50px;
+    width: 120px;
+    
+}
+
+.location-div{
+    width: 130px;
+}
+
+.location{
+    text-decoration: none;
+    color: white;
+      
+}
+.location-logo{
+    display: flex;
+    align-items: center;
+}
+.small-text{
+    color: rgb(202, 202, 202);
+    font-size: 12px;
+    margin-left: 19px;
+    
+}
+
+.big-text{
+        font-size: 13.5px;
+        margin-left: 5px;
+        font-weight: bold;
+        margin-top: -5px;
+        
+    }
+    .fa-location-dot{
+        margin-top: -12px;
+        font-size: 18px;
+    }
+    
+    .search-bar{
+        height: 40px;
+        margin-left: 10px;
+    width: 80%;
+    display: flex;
+    border: none;
+    background-color: ;
+    overflow: ;
+    min-width: 600px;
+    
+    
+    
+}
+.search-input{
+    height: 40px;
+    width: 100%;
+    font-size: 0.9em;
+    padding-left: 10px;
+    min-width: 80% ;
+    
+}
+.search-list{
+    height: 40px;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-icon{
+    height: 40px;
+    width: 50px;
+    font-size: 21px;     
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(253, 180, 44);
+    text-decoration: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+.language-div{
+    margin-top: 16px 5px 0 10px;
+    display: flex;
+justify-content: center;
+ 
+
+}
+.usa-flag{
+    margin: 7px 0 0 15px;
+    margin-right: -18px;
+    height: 15px;
+}
+.language{
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: transparent;
+    margin:  0 20px;
+}
+
+.sign-in-div{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -5px;
+}
+
+.sign-in-select{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    
+    font-size: 0.8rem;
+}
+
+.sign-in-text{
+    font-size: 0.7rem;
+}
+
+.return-order-div{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.return-order{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+    
+}
+.return{
+    font-size: 0.7rem;
+    margin-top: px;
+}
+
+.order{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.cart{
+    font-size: 35px;
+    margin: 0 20px;
+    display: flex;
+}
+
+.cart-text{
+    font-size: 13px;
+    font-weight: bold;
+    align-self: end;
+}
+
+.navbar2{
+    background-color: #232f3e;
+    height: 40px;
+    width: 100vw;
+    padding-top: 10px;
+    overflow: ;
+    
+} 
+
+
+
+.navbar2 ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 15px;
+    padding: 0;
+    color: white;
+}
+
+.navbar2 ul li{
+    margin: 0 10px;
+}
+
+.fa-bars{
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+.container{
+    background-image: url("/clone-background.jpg");
+    height: 655px;
+    width: 100vw;
+    background-size: cover;
+    overflow: ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: ;
+}
+
+/* .container div{
+    margin-top: 280px;
+    height: 400px;
+    overflow: ;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    padding: 0 20px;
+    } */
+    
+    .container .div1,.div2,.div3,.div4{
+        margin-top: 280px;
+        height: 350px;
+        overflow: ;
+        width: 300px;
+        background-color: white;
+    display: grid;
+    gap: 20px;
+   
+    padding: 0 20px;
+}
+.container .div1{
+   
+    
+   grid-template-areas: 'gaming-accessories gaming-accessories' 'div1-div1 div1-div2' 'div1-div3 div1-div4'; 
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+.div1 .div1-div1{
+    grid-area: div1-div1;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-image: url("../images/headsets.jpg");
+    margin: 10px;
+    background-repeat: ;
+    background-position: center;
+    background-size: cover;
+    
+}
+.div1 .div1-div2{
+    grid-area: div1-div2;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-image: url("../images/keyboard.png");
+    background-position: center;
+    background-size: cover;
+}
+.div1 .div1-div3{
+    grid-area: div1-div3;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-image: url("../images/Mouse.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.div1 .div1-div4{
+    grid-area: div1-div4;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-position: center;
+    background-image: url("../images/Chair.jpg");
+    background-size: cover;
+    
+}
+
+.gaming-accessories{
+    margin: 10px;
+    grid-area: gaming-accessories;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.container .div2{
+    
+    
+   grid-template-areas: 'shop-deals shop-deals' 'div2-div1 div2-div2' 'div2-div3 div2-div4'; 
+    padding: 0 20px;
+}
+.div2 .div2-div1{
+    grid-area: div2-div1;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-image: url("../images/Jeans.jpg");
+    margin: 10px;
+    background-repeat: ;
+    background-position: center;
+    background-size: cover;
+    
+}
+.div2 .div2-div2{
+    grid-area: div2-div2;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-image: url("../images/Tops.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.div2 .div2-div3{
+    grid-area: div2-div3;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-image: url("../images/Dresses.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.div2 .div2-div4{
+    grid-area: div2-div4;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-position: center;
+    background-image: url("../images/Shoes.jpg");
+    background-size: cover;
+    
+}
+
+.shop-deals{
+    margin: 10px;
+    grid-area: shop-deals;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.container .div3{
+    
+    
+   grid-template-areas: 'refresh-space refresh-space'  'div3-div1 div3-div2' 'div3-div3 div3-div4'; 
+    padding: 0 20px;
+}
+.div3 .div3-div1{
+    grid-area: div3-div1;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-image: url("../images/dining.jpg");
+    margin: 10px;
+    background-repeat: ;
+    background-position: center;
+    background-size: cover;
+    
+}
+.div3 .div3-div2{
+    grid-area: div3-div2;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-image: url("../images/home.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.div3 .div3-div3{
+    grid-area: div3-div3;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-image: url("../images/kitchen.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.div3 .div3-div4{
+    grid-area: div3-div4;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-position: center;
+    background-image: url("../images/health and beauty.jpg");
+    background-size: cover;
+    
+}
+
+.refresh-space{
+    margin: 10px;
+    grid-area: refresh-space;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.div4{
+    grid-template-areas: 'deals-pcs deals-pcs' 'div4-div1 div4-div1'
+    'div4-div1 div4-div1' 'div4-div1 div4-div1''div4-div1 div4-div1''div4-div1 div4-div1' 'div4-div1 div4-div1';
+}
+.div4 .div4-div1{
+    background-image: url("../images/pc.jpg");
+    background-size: cover;
+    grid-area: div4-div1;
+    height: 280px;
+    background-position: center;
+}
+
+.deals-pcs{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    grid-area: deals-pcs;
+
+}
+.middle{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    background-color: rgb(54, 54, 70);
+}
+.back-top{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+.footer-div{
+    padding: 50px 100px;
+    width: 100vw;
+    height: 395px;
+    display: flex;
+    justify-content: space-around;
+    background-color:  ;
+    background-color: rgb(34, 34, 46);
+    
+}
+
+footer div ul{
+    list-style-type: none;
+    color: rgb(226, 224, 224);
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.footer-heading{
+
+    color: white;
+}
+
+.bottom-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.1px solid rgb(61, 61, 61);
+    height: 120px;
+    width: 100vw;
+    background-color: rgb(34, 34, 46);
+}
+
+.bottom-div1{
+    background-image: url("../images/Amazon-Symbol-Photoroom.png");
+    background-size: cover;
+    background-position: center;
+     
+    height: 30px;
+    width: 85px;
+    margin-left: -10px;
+    
+
+}
+.bottom-div2{
+     margin-left: 80px;
+     padding-right: 30px;
+     color: rgb(199, 196, 196);
+     display: flex;
+     align-items: center;
+    height: 35px;
+    width: 110px;
+    border: 1px solid grey;
+    font-size: 13px;
+    border-radius: 3px;
+
+    
+    
+
+}
+.footer-globe{
+    padding-left: 10px;
+
+}
+
+.fa-globe{
+    margin-left: 10px;
+    color: rgb(235, 231, 231);
+}
+.bottom-div3{
+     margin-left: 8px;
+     padding-right: ;
+     color: rgb(199, 196, 196);
+     display: flex;
+     align-items: center;
+     font-size: 13px;
+    height: 35px;
+    width: 150px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    
+    
+
+}
+.footer-dollar{
+    padding-left: 10px;
+
+}
+
+.fa-dollar-sign{
+    margin-left: 10px;
+    color: rgb(235, 231, 231);
+}
+.bottom-div4{
+     margin-left: 8px;
+     padding-right: ;
+     color: rgb(199, 196, 196);
+     display: flex;
+     align-items: center;
+     font-size: 13px;
+    height: 35px;
+    width: 140px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    
+    
+
+}
+.footer-us{
+    padding-left: 10px;
+
+}
+
+.footer-image-us{
+    margin-left: 10px;
+}

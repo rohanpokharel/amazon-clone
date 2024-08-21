@@ -209,7 +209,7 @@ justify-content: center;
 }
 
 .container{
-    background-image: url("/images/clone-background.jpg");
+    background-image: url("/clone-background.jpg");
     height: 655px;
     width: 100vw;
     background-size: cover;
